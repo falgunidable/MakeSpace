@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+body{
+    font-family: 'Roboto Slab', sans-serif;
+}
+#logbtn{
+    border: none;
+    color: #1C0A00;
+    font-weight: 800;
+}
+#logbtn:hover{
+    background-color: #361500;
+    color: white;
+}
+#logbtn:focus{
+    outline: none;
+}

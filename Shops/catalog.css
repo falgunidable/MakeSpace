@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.container{
+	width: 1500px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card{
+    margin-top: 30px;
+	background-color: #fff;
+	border:none;
+	border-radius: 10px;
+	width: 280px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image-container{
+	position: relative;
+    padding: 10px;
+    text-align: center;
+}
+
+.thumbnail-image{
+	border-radius: 10px !important;
+    width: 220px;
+}
+
+.dress-name{
+	font-size: 14px;
+	font-weight: bold;
+	width: 75%;
+    padding: 5px;
+}
+
+
+.new-price{
+	font-size: 13px;
+	font-weight: bold;
+	color: white;
+    padding: 5px;
+}
+
+.product-detail-container{
+    background-color: #361500;
+    color: white;
+}
+
+#buyItem{
+    background-color: #873400;
+    border: none;
+    padding: 5px;
+    box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+#buyItem:hover{
+    background-color: #873400;
+    border-radius: 0px 0px 10px 10px;
+    color: white;
+    font-weight: bolder;
+}

@@ -1,0 +1,78 @@
+#buy,#rent,#sell{
+  width: 200px;
+  padding: 7px;
+  border:none;
+  background-color:#1C0A00;
+  font-weight:500;
+  border-radius:20px;
+  color: white;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,1.0);
+  font-family:'Roboto Slab'
+}
+
+#search,#upload{
+  width: 170px;
+  padding: 10px;
+  font-weight:700;
+  border:none;
+  border-radius:10px;
+  background-color:transparent;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,1.0);
+  font-family:'Roboto Slab'
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #buy,#rent,#sell{
+    width: 120px;
+    font-size: 14px;
+  }
+  #search,#upload{
+    width: 150px;
+    font-size: 14px;
+    padding: 7px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #buy,#rent,#sell{
+    width: 150px;
+    font-size: 14px;
+  }
+  #search,#upload{
+    width: 160px;
+    font-size: 14px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #buy,#rent,#sell{
+    width: 180px;
+    font-size: 16px;
+  }
+  #search,#upload{
+    width: 160px;
+    font-size: 14px;
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #buy,#rent,#sell{
+    width: 200px;
+    padding: 7px;
+    font-weight:500;
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  #buy,#rent,#sell{
+    width: 200px;
+    padding: 7px;
+    font-weight:500;
+  }
+  
+}
